@@ -1,3 +1,4 @@
 # OffTy
 CSI4900 Honours Project
+
 Social media is becoming more entwined in peoples everyday life. Twitter is one of such platforms that is growing rapidly. As more and more people use it, there is less understanding of accountability. Users are not understanding the future consequences of their current tweets. As such, there has been cases of people suffering the repercussion years down the road. There is currently no system for Twitter that illustrates the users previous tweets that might be deemed offensive, this is where the idea for OffTy came from. OffTy is an offensive tweet classification system that allows the user to search their accounts, and would illustrate back what tweets it thinks is offensive. Using Naïve Bayes classification and with an 90% average accuracy, OffTy can be trusted to find the offensive tweets. As OffTy grows in efficiency and popularity, hopefully it is able to help users down the road.
