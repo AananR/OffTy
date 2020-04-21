@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+
+
+
+    <!-- My CSS stylesheet -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/style.css') }}" >
+
+    <title>OffTy</title>
+      <link rel="shortcut icon" href="{{ url_for('static', filename='assets/images/Twitter_Icon.PNG') }}" type="image/x-icon">
+
+  </head>
+  <body>
+      
+    <div class="bg">
+        <!-- Header Start-->
+        <header>
+            <div class="trn bg-light ">
+                
+
+                    <div style="padding-left: 10pt;">
+                        <h1 style="color: white;">OffTy</h1>
+                    </div>
+            </div>
+        </header>
+
+        <!-- Body Start -->
+
+        <main >
+            <form action = "http://localhost:5000/search" method = "POST">
+            <div class="searchcontainer">
+                <p class="searchtitle">
+                    Think some of your tweets might be offensive? Let's find out
+                </p>
+
+                <input class="searchinput" type="text" placeholder="Search Username" name="query" id="SearchBar" autocomplete="off" >
+
+            </div>
+                <div class="searchButtonContainer">
+                 <input type = "submit" class="searchButton" value="Search">
+                    </div>
+
+
+
+
+    </form>
+
+               
+
+            
+            
+        </main>
+
+
+        
+
+
+
+    </div>
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/style.css') }}" >
+
+
+
+
+ 
+
+</body>
+</html>

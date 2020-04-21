@@ -1,0 +1,198 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
+body, html {
+    height: 100%;
+    width: 100%;
+
+  }
+
+#SearchItemsContainer
+{
+
+    display: none;
+    position: absolute;
+
+	left: 15%;
+    width: 75%;
+}
+.bg {
+    /* The image used */
+    background-color: #00acee;
+
+    /* Full height */
+    height: 100%;
+    width: 100%;
+
+
+}
+
+
+
+.resultContainer{
+
+    background-size: 100% 100% ;
+    /*This was found at: https://webgradients.com/*/
+    background: rgba(105,226,225,1);
+    background-size: cover;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+
+
+
+/*This was found at https://stackoverflow.com/questions/12112746/how-can-i-tint-a-background-image-with-css/35177384*/
+.background-tint {
+    background-blend-mode: multiply;
+    left: 50%;
+	top: 50%;
+    width: 75%;
+    transform: translate(35%);
+}
+
+ 
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.trn {
+    background-color: darkgray;
+    z-index: 99;
+}
+.pSpellCheck {
+    font-size: 20px;
+    font-weight: 900;
+    color: red;
+}
+table{
+
+    border-collapse: collapse;
+
+}
+
+    th, td {
+
+    font-size: 15px;
+    font-weight: 900;
+    text-align: center;
+    color: black;
+
+    }
+    .noborders > td{
+       border-color: transparent;
+    border-bottom-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+}
+    .thOne{
+        border:solid 3px black;
+
+    }
+    .thTwo{
+        width: 80%;
+    }
+
+    .tdOne{
+        border:solid 1px black;
+
+    }
+    .tdTwo{
+        width: 80%;
+    }
+
+
+
+
+
+.searchButtonContainer{
+    position: absolute;
+	left: 50%;
+	top: 475px;
+	transform: translate(-50%);
+}
+.searchButton{
+    width: 100%;
+    position: relative;
+    
+
+   
+}
+
+/*This was found at https://codepen.io/mihaeltomic/pen/vmwMdm and i made changes required*/
+
+.searchcontainer {
+    padding-top: 64px;
+    position: absolute;
+	left: 50%;
+	top: 31%;
+    transform: translate(-50%);
+    width: 70%;
+    
+    
+
+} 
+.searchtitle {
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    color: antiquewhite;
+}
+
+
+.myText{
+    margin-top: 20px;
+    font-size: 23px;
+    font-weight: 900;
+    text-align: center;
+    color: #df9b9b;
+}
+
+.searchinput {
+        width: 75%;
+        margin-left: 15%;
+        margin-right: 30%;
+        padding: 12px 24px;
+        
+        
+
+        transition: transform 250ms ease-in-out;
+        font-size: 14px;
+        line-height: 18px;
+        
+        color: #575756;
+/*         background-image: url(http://mihaeltomic.com/codepen/input-search/ic_search_black_24px.svg); */
+ 
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-size: 18px 18px;
+        background-position: 95% center;
+        border-radius: 50px;
+        border: 1px solid #575756;
+        transition: all 250ms ease-in-out;
+        backface-visibility: hidden;
+        transform-style: preserve-3d;}
+
+        
+        .searchinput::placeholder {
+            color: color(#575756 a(0.8));
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+        
+        .searchinput:hover, .searchinput:focus {
+            padding: 12px 0;
+            outline: 0;
+            border: 1px solid transparent;
+            border-bottom: 1px solid #575756;
+            border-radius: 0;
+            background-position: 100% center;
+        }
+    
+
+
+
+
